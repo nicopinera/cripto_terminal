@@ -6,6 +6,10 @@ config_pam:
 	chmod +x src/pam1.sh
 	sudo ./src/pam1.sh
 
+config_pam2:
+	chmod +x src/pam2.sh
+	sudo ./src/pam2.sh
+
 config_fail2ban:
 	chmod +x src/fail2ban.sh
 	sudo ./src/fail2ban.sh
