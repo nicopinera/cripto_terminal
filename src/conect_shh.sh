@@ -2,8 +2,8 @@ set -o allexport
 source .env
 
 # Conectar a servidor SSH
-#ssh root@$IP
-#exit
+# ssh root@$IP
+# exit
 
 ssh-keygen -t ed25519 -C $EMAIL
 
